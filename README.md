@@ -1,7 +1,7 @@
 # Diseño y Nuevos Medios
 ## Optativo de Profundización / Diseño / UC
-#### 5 de abril, 2017
-##### MÓDULO 2: Introducción al uso de FrontEnd Framework con Bootstrap.
+### 5 de abril, 2017
+#### MÓDULO 2: Introducción al uso de FrontEnd Framework con Bootstrap.
 __
 
 En esta segunda clase del módulo: 
