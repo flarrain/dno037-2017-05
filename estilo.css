@@ -1,6 +1,6 @@
 body{padding-top:50px;}
 
-:hover{
+:hover{ /* Específico para diferentes navegadores */
 -webkit-transition: color 0.5s ease-in-out;
 -moz-transition: color 0.5s ease-in-out;
 -o-transition: color 0.5s ease-in-out;
@@ -10,28 +10,39 @@ transition: color 0.5s ease-in-out;
 ::selection{background-color:rgba(255,155,0,.9);}
 
 header{padding:2em 0;}
-header h1{}
-header h2{font-weight:300;}
+header h1{font-size: 30px;}
+header h2{font-weight:200; font-family: sans-serif; font-style: italic;font-size: 14px;
+}
 
 article{padding-bottom:1.5em;}
-article h5 {padding-bottom:1em;}
-article h5 a{padding-right:1em;}
+article p{font-family:serif;font-size:14px}
+article h2{font-family: sans-serif;font-weight: 200;font-size: 20px;padding-bottom: -1em}
+article h3 {font-weight:200; font-size: 30px: bold;font-size: 20px}
+article h5 {padding-bottom:0.5em;}
+article h5 a{padding-right:1em;font-size: 12px}
 article figure{
+  /* Los márgenes alejan la imagen del texto */
   margin-right:2em;
   margin-bottom:1em;
   margin-top:0.25em;
   float:left;
   width:40%;
-  height:auto;
+  height:auto; /*si no ponemos auto la imagen puede deformarse */
   overflow: hidden;
+/* lo que viene a continuación es una contradicción a esto, se refiere a que la imagen va a quedar en su 100% cuando la página esté a 768px o más chica */
 }
 @media (max-width: 768px) {
 article figure{width:100%; padding-right:0; clear:both;}
 }
 article figure img{width:100%; height:auto;filter:grayscale(100%);}
-article:hover figure img{filter:grayscale(0);}
+article:hover figure img{
+  filter:grayscale(0);}
+  transform: scale (1.5);
+
+div figure {width: 10%;}
 
 aside{padding-top:0.5em;}
+div ul{font-family: serif; }
 
 aside h3{
   margin-left:0.6em;
@@ -42,5 +53,6 @@ aside h3{
   font-weight: 800;
   margin-bottom: 1em;
 }
+
 
 footer{border-top:1px solid silver; padding:1em 0; margin:3em 0 0 0;}
