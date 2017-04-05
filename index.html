@@ -31,7 +31,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">   <!--[esto hace que la página se achique y agrande de manera "armónica"]-->
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -39,14 +39,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Project name</a>
+          </button> <!--[botón que aparece cuando la página se achica (colapsa) ]-->
+          <a class="navbar-brand" href="index.html">Culturas originarias chilenas</a> <!-- navbar es la barra de arriba de la página -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse"> <!--[links que llevan a los artículos de la página]-->
           <ul class="nav navbar-nav navbar-right">
               <li><a href="#primero" class="page-scroll">Primer artículo</a></li>
               <li><a href="#segundo" class="page-scroll">Segundo artículo</a></li>
               <li><a href="#tercero" class="page-scroll">Tercer artículo</a></li>
+              <li><a href="https://github.com/flarrain" class="page-scroll">Mi cuenta en Github</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -55,8 +56,8 @@
       <div class="row">
         <div class="col-sm-12">
           <header>
-            <h1>Nombre del proyecto</h1>
-            <h2>Una bajada breve. Sigan las recomendaciones de <a href="https://www.nngroup.com/articles/blah-blah-text-keep-cut-or-kill/" target="_blank" title="Blah Text: Keep, Cut, or Kill?">Jakob Nielsen</a></h2>
+            <h1>Mitos y leyendas chilenas</h1>
+            <h2> <p>"El mito entrega el conocimiento de la vida del hombre antiguo y la interpretación de su pensamiento y de sus acciones"</p> <a href="http://www.memoriachilena.cl/602/w3-article-3631.html#presentacion" target="_blank" title="Investigador viajero de nuestra cultura tradicional">Oreste Plath</a></h2>
           </header>
         </div><!--/col-sm-12 que contiene al header-->
         <div class="col-sm-8">
@@ -64,62 +65,78 @@
           <!--acá abro el artículo-->
           <article class="row" id="primero">
             <div class="col-sm-12">
-              <h3>Título del primer artículo</h3>
-              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
-              <figure><img src="images/peep-show.jpg"></figure>
-              <p>Vamos más allá del lorem ispum. Intenten redactar algo de interés, considerando <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank">cómo es que los usuarios leen en la Web</a>.</p>
-              <p>Pueden escribir sobre cultura popular –películas, series en Netflix, grupos musicales– o sobre cualquier otro tema que les resulte propio y les permita redactar un texto de unas 100 palabras sin mayor esfuerzo.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu auctor tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam justo tortor, porta eu dapibus eget</p>
-              <p>Vestibulum fermentum, felis sed suscipit porttitor, purus velit molestie tortor, at interdum mi est vel purus. Aliquam enim diam, consequat a tempus quis, hendrerit sit amet neque. Aliquam commodo ullamcorper finibus.</p>
-              <p>Fusce a lorem quis nunc tempus pretium. Nulla non nunc ut ex euismod cursus nec sit amet risus. Suspendisse aliquam congue diam vel pellentesque. Proin sollicitudin tortor non dignissim tristique. In et leo porttitor.</p>
-              <p>Con esto se <a data-toggle="modal" data-target="#miPrimerModal">abre un modal</a>. Búscale un uso.</p>
+              <h2>Norte de Chile</h2>
+              <h3>- El Alicanto -</h3>
+              <h5><a href="archivos.html" class="más leyendas">Más leyendas</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="images/alicanto2.jpeg"></figure>
+              <p>Es un pájaro fabuloso que vive entre los cerros de minerales y se alimenta de oro o de plata, según sea el metal del cerro donde mora. Sus ojos despiden extraños fulgores. De sus alas se desprenden
+                reflejos que lo envuelven en un halo luminoso, cuando camina por los pefiascales. Si tiene su buche lleno, no puede volar debido al peso de los metales con que se alimenta, pero no le es difícil
+                 huir si alguien se atreve a perseguirlo, pues en cualquier recodo o grieta se oculta, sin dejar huella de su paso.</p>
+              <p>Si la persecución es mantenida, el Alicanto se perderá y aparecerá; caminará con un paso mis rápido y a veces lento, hasta que por fin arrojará una
+              luz fuertísima que traspasará y encandilará a1 perseguidor dejándolo enceguecido en medio de un camino o al borde de un precipicio.</p>
+              <p>Aquí encuentra <a data-toggle="modal" data-target="#miPrimerModal">otras versiones</a> que cuentan el mito del Alicanto.</p>
+              <!--/data-toggle="modal" data-target="#miPrimerModal: esto es para el modal (pop-up)-->
           </article>
           <!--acá cierro el artículo-->
           <!--acá abro el artículo-->
           <article class="row" id="segundo">
             <div class="col-sm-12">
-              <h3>Título del segundo artículo</h3>
+              <h2>Centro de Chile</h3>
+              <h3>- Los Pincheira -</h3>
               <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
-              <figure><img src="images/doc-martin.jpg"></figure>
-              <p>Vamos más allá del lorem ispum. Intenten redactar algo de interés, considerando <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank">cómo es que los usuarios leen en la Web</a>.</p>
-              <p>Pueden escribir sobre cultura popular –películas, series en Netflix, grupos musicales– o sobre cualquier otro tema que les resulte propio y les permita redactar un texto de unas 100 palabras sin mayor esfuerzo.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu auctor tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam justo tortor, porta eu dapibus eget</p>
-              <p>Vestibulum fermentum, felis sed suscipit porttitor, purus velit molestie tortor, at interdum mi est vel purus. Aliquam enim diam, consequat a tempus quis, hendrerit sit amet neque. Aliquam commodo ullamcorper finibus.</p>
-              <p>Fusce a lorem quis nunc tempus pretium. Nulla non nunc ut ex euismod cursus nec sit amet risus. Suspendisse aliquam congue diam vel pellentesque. Proin sollicitudin tortor non dignissim tristique. In et leo porttitor.</p>
-              <p>Con esto se <a data-toggle="modal" data-target="#miPrimerModal">abre un modal</a>. Búscale un uso.</p>
+              <figure><img src="images/Los pincheira.jpg"></figure>
+              <p>Enorme horadación que penetra profundamente en el muro rocoso y hace una especie de
+                refugio grande en el que caben más de cuatrocientas ovejas.
+Aquí se escondían las fuerzas rebeldes de los Pincheira, que eran cientos y
+se guarecían de las tormentas en forma segura y tranquila.</p>
+<p>Los Pincheira se hicieron tristemente famosos.
+Atacaban las ciudades, las incendiaban, las saqueaban y se llevaban las mujeres cautivas.</p>
+              <p> <a data-toggle="modal" data-target="#miSegundoModal">¿Mito o realidad?</a> </p>
           </article>
           <!--acá cierro el artículo-->
           <!--acá abro el artículo-->
           <article class="row" id="tercero">
             <div class="col-sm-12">
-              <h3>Título del tercer artículo</h3>
+              <h2> Sur de Chile </h3>
+              <h3>- La Pincoya -</h3>
               <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
-              <figure><img src="images/the-inbetweeners.jpg"></figure>
-              <p>Vamos más allá del lorem ispum. Intenten redactar algo de interés, considerando <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank">cómo es que los usuarios leen en la Web</a>.</p>
-              <p>Pueden escribir sobre cultura popular –películas, series en Netflix, grupos musicales– o sobre cualquier otro tema que les resulte propio y les permita redactar un texto de unas 100 palabras sin mayor esfuerzo.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu auctor tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam justo tortor, porta eu dapibus eget</p>
-              <p>Vestibulum fermentum, felis sed suscipit porttitor, purus velit molestie tortor, at interdum mi est vel purus. Aliquam enim diam, consequat a tempus quis, hendrerit sit amet neque. Aliquam commodo ullamcorper finibus.</p>
-              <p>Fusce a lorem quis nunc tempus pretium. Nulla non nunc ut ex euismod cursus nec sit amet risus. Suspendisse aliquam congue diam vel pellentesque. Proin sollicitudin tortor non dignissim tristique. In et leo porttitor.</p>
-              <p>Con esto se <a data-toggle="modal" data-target="#miPrimerModal">abre un modal</a>. Búscale un uso.</p>
+              <figure><img src="images/pincoya1.jpg"></figure>
+              <p>La Pincoya es una sirena o ninfa que a veces anda acompañada por su marido,
+                el Pincoy, ambos son rubios. En algunas ocasiones
+abandona el mar y excursiona por rios y lagos.Su misi6n es fecundar los peces y mariscos bajo las aguas y de ella depende la abundancia o escasez de estos productos.
+Atrae o aleja de la costa a los peces y mariscos.
+Cuando un pescador ve de mañana surgir de las profundidades
+ de las aguas a la Pincoya y ésta danza en la playa mirando hacia el mar extendiendo
+ sus hermosos brazos, hay alegria en todos, porque este baile es anuncio de pesca abundante.
+ Si danza mirando hacia la costa, alejará a los peces.
+Si la Pincoya no favorece con pesca a un lugar, quiere decir que ha arrastrado l
+a abundancia a otro más necesitado.
+Para ser favorecido por la Pincoya, es necesario estar contento, para esto los
+pescadores se acompañan de amigos y amigas alegres y rtidores.
+Si se pesca o marisca con mucha frecuencia en el mismo lugar, la Pincoya se enoja y
+abandona aquel frente, que hego queda estéril.</p>
+              <p>Encuentra <a data-toggle="modal" data-target="#miTercerModal">aquí</a> el significado de este mito.</p>
           </article>
           <!--acá cierro el artículo-->
         </section>
       </div><!--/col-sm-8 que contiene al section-->
         <div class="col-sm-4">
-          <aside>
+          <aside> <!--[links en bloques colapsables en la misma página a la derecha]-->
             <h3>Vínculos</h3>
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingOne">
                   <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Collapsible Group Item #1
+
+                    Mapa de mitos y leyendas
                     </a>
                   </h4>
                 </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <figure><img src="images/mapa de mitos.png"> </figure>
+
                   </div>
                 </div>
               </div>
@@ -127,13 +144,15 @@
                 <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Collapsible Group Item #2
+
+                      Libro de mitos y leyendas
                     </a>
                   </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <a href="http://www.memoriachilena.cl/602/w3-article-96555.html" target="_blank" title="Geografía del mito y la leyenda chilenos ">Memoria chilena</a>
+
                   </div>
                 </div>
               </div>
@@ -141,13 +160,16 @@
                 <div class="panel-heading" role="tab" id="headingThree">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Collapsible Group Item #3
+
+                  Más acerca de tradiciones chilenas
                     </a>
                   </h4>
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  <a href="http://www.memoriachilena.cl" target="_blank" title="Memoria Chilena">Memoria chilena</a>
+
+
                   </div>
                 </div>
               </div>
@@ -159,7 +181,7 @@
 
         <div class="col-sm-12">
           <footer>
-          <p><a href="mailto:correo@correo.cl">Nombre Apellido</a>. Sigo avanzando en Bootstrap.</p>
+          <p><a href="mailto:melarrain@uc.cl">Fernanda Larraín</a>. Sigo avanzando en Bootstrap.</p>
         </footer>
       </div><!--/col-sm-12 que contiene al footer-->
       </div><!--/row-->
@@ -191,7 +213,7 @@
       <div class="modal-body">
         ...
       </div>
-      <div class="modal-footer">
+
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
@@ -210,7 +232,6 @@
       <div class="modal-body">
         ...
       </div>
-      <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
