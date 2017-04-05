@@ -5,9 +5,10 @@
 __
 
 En esta segunda clase del módulo: 
-- "customizaremos" los componentes de Bootstrap antes de [descargarlos](http://getbootstrap.com/customize/), para trabajar con el peso más adecuado.
-- revisaremos la regla @media para complementar la responsividad de Bootstrap.
-- comenzaremos a trabajar en un adelanteo a la entrega.
+- "customizaremos" los componentes de Bootstrap antes de [descargarlos](http://getbootstrap.com/customize/), aprovechando el `config.json`.
+- avanzaremos en el uso de CSS y Componentes de Boostrap.
+- revisaremos en CSS la regla @media y los relacionaremos con los "breakpoint" de Bootstrap.
+- comenzaremos a trabajar en la entrega de la primera evaluación parcial.
 
 Referencias: 
 - [Bootstrap Classes Reference](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
